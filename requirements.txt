@@ -1,0 +1,6 @@
+dash>=2.7.0
+dash-bootstrap-components>=1.2.1
+Flask>=2.2.2
+gunicorn>=20.1.0
+python-dotenv>=0.21.0
+dash-ag-grid==2.0.0a3

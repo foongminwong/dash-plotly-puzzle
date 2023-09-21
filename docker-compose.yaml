@@ -1,0 +1,13 @@
+version: '3.7'
+services:
+  dashboard:
+    build: 
+      context: ./
+    container_name: "dash-plotly-puzzle"
+    hostname: "dash-plotly-puzzle"
+    restart: always
+    networks:
+      - default
+    ports:
+      - 7000:80
+      
