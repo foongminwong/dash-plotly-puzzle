@@ -12,7 +12,4 @@ dash.register_page(
     path='/'
 )
 
-def serve_layout():
-    return html.P("This is the content of the home page!")
-
-layout = serve_layout
+layout = html.Div([html.P("This is the content of the home page!")])

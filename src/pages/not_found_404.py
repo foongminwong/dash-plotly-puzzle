@@ -14,11 +14,9 @@ dash.register_page(
 # 404 Title
 def not_found():
     return html.Div([
-        html.Div([
             html.H4("Page Not Found"),
             html.P("Sorry, the page you requested could not be found."),
             dcc.Link("Back to Home", href=HOME_URL),
         ])
-    ])
 
 layout = not_found()

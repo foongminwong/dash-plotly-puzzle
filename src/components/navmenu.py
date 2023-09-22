@@ -15,8 +15,7 @@ SIDEBAR_STYLE = {
 }
 
 def sidebar():
-    return html.Div(
-    [
+    return html.Div([
         html.I(className="bi bi bi-puzzle display-4"),
         html.Hr(),
         html.P(

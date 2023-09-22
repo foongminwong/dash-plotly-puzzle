@@ -18,7 +18,6 @@ def serve_app_layout():
     return html.Div([
         navmenu.sidebar(),
         html.P(dash.page_container, style=CONTENT_STYLE)
-
     ])
 
 app.layout = serve_app_layout
