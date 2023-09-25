@@ -1,7 +1,7 @@
 # Dash Plotly Puzzle
 
 ### Setup
-1. Run `docker-compose up --build`
+1. Run `docker build -t dash-plotly-puzzle` then `docker run -p 7000:80 dash-plotly-puzzle` or `docker-compose up --build`
 2. Launch app in `localhost:7000`
 
 ### Resources:
